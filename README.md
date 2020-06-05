@@ -10,9 +10,9 @@ Progressive Web Application (PWA) developed in TypeScript and React through Gats
 
 - [x] Fix contact form (Basin API)
 - [x] Delete unused CSS and assets
+- [x] Fix CSS navbar link hover
+- [x] Fix CSS hamburger for mobile screen
 - [ ] Fix responsive absolute positioning of hero banner graphics
-- [ ] Fix CSS navbar link hover
-- [ ] Fix CSS hamburger for mobile screen
 - [ ] Delete unnecessary CSS hover cursor:pointer
 - [ ] Add preloader functionality
 - [ ] Fix scroll-to-top functionality (gatsby-plugin-smoothscroll)
