@@ -45,6 +45,7 @@ a, .btn, button {
 
 a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   text-decoration: none;
+  color: #f96e65 !important;
   outline: none;
 }
 
@@ -408,7 +409,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .menu_theme .menu_toggle .hamburger span, .menu_theme .menu_toggle .hamburger-cross span {
-  background: #fff;
+  background: #383838;
 }
 
 .main_btn_radius {
@@ -635,7 +636,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .team_item h5 {
-  font: 300 14px/24px "Poppins", sans-serif;
+  font: 300 14px/24px "Ubuntu", sans-serif;
   color: #677294;
   margin-bottom: 0px;
 }
@@ -1566,7 +1567,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .f_social_icon a:hover {
-  background: #00aff0;
+  background: #f96e65;
   color: #fff;
 }
 
