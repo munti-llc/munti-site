@@ -20,18 +20,14 @@ const Process = () => {
 										src={require("../img/process/stepOne.png")}
 										alt=""
 									/>
-									<a href=".#">
-										<h4>Introductions & Conversation</h4>
-									</a>
+									<h4>Introductions & Conversation</h4>
 									<p>
 										Contact us with an intro to your startup
 										and what you want made. From there,
 										we'll chat about how to make even the
 										earliest of ideas into reality.
 									</p>
-									<a href=".#">
-										<i className="arrow_right"></i>
-									</a>
+									<i className="arrow_right"></i>
 								</div>
 							</div>
 						</Fade>
@@ -42,18 +38,14 @@ const Process = () => {
 										src={require("../img/process/stepTwo.png")}
 										alt=""
 									/>
-									<a href=".#">
-										<h4>Scouting & Negotiations</h4>
-									</a>
+									<h4>Scouting & Negotiations</h4>
 									<p>
 										With the features, budget, and timeline
 										discussed, we'll then scout our company
 										for you. Here, the nicer the contract,
 										the bigger the talent you can attract!
 									</p>
-									<a href=".#">
-										<i className="arrow_right"></i>
-									</a>
+									<i className="arrow_right"></i>
 								</div>
 							</div>
 						</Fade>
@@ -64,18 +56,14 @@ const Process = () => {
 										src={require("../img/process/stepThree.png")}
 										alt=""
 									/>
-									<a href=".#">
-										<h4>Continued Match-Making</h4>
-									</a>
+									<h4>Continued Match-Making</h4>
 									<p>
 										Once you're paired up, rest assured
 										they're the best talent given your needs
 										and resources. We'll also continually
 										reassess this throughout the project.
 									</p>
-									<a href=".#">
-										<i className="arrow_right"></i>
-									</a>
+									<i className="arrow_right"></i>
 								</div>
 							</div>
 						</Fade>

@@ -619,7 +619,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   text-align: center;
   margin-bottom: 40px;
   overflow: hidden;
-  cursor: pointer;
+  cursor: default;
 }
 
 .team_item img {
@@ -697,7 +697,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .team_item .hover_content .desc_hover_content ul li a:hover {
-  color: #d9fef8;
+  color: #bbdefb !important;
 }
 
 .team_item .hover_content .desc_hover_content .nametag {
@@ -907,6 +907,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
+  cursor: default;
 }
 
 .services_icon:hover {
@@ -942,7 +943,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   -webkit-transition: border 0.2s linear;
   -o-transition: border 0.2s linear;
   transition: border 0.2s linear;
-  cursor: pointer;
+  cursor: default;
   overflow: hidden;
 }
 
@@ -986,7 +987,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  cursor: pointer;
+  cursor: default;
 }
 
 .card_item h4 {
@@ -1123,7 +1124,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .work_gallery .work_item .work_img {
   position: relative;
-  cursor: pointer;
+  cursor: default;
   overflow: hidden;
 }
 
@@ -1159,7 +1160,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   top: 50px;
   border: 1px solid #fff;
   border-radius: 50%;
-  color: #fff;
+  color: #fff9e5;
   -webkit-transform: scale(0.9);
   -ms-transform: scale(0.9);
   transform: scale(0.9);
@@ -1199,7 +1200,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   -webkit-transform: translateY(25px);
   -ms-transform: translateY(25px);
   transform: translateY(25px);
-  color: #fff;
+  color: #fff9e5 !important;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
@@ -1502,6 +1503,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transition: all 0.2s linear;
   z-index: 1;
   position: relative;
+  cursor: default;
 }
 
 .stack_item h5 {
