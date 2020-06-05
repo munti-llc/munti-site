@@ -873,18 +873,18 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .hero_splash_graphic .phone, .hero_splash_graphic .laptop {
   position: absolute;
-  right: 0;
+  right: 0%;
 }
 
 .hero_splash_graphic .phone {
-  bottom: -100px;
-  right: 200px;
+  bottom: -10%;
+  right: 20%;
   z-index: 100;
 }
 
 .hero_splash_graphic .laptop {
-  right: -100px;
-  bottom: 150px;
+  right: -10%;
+  bottom: 15%;
 }
 
 .services_logo {

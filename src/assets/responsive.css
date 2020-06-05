@@ -4,8 +4,8 @@
     }
     .hero_splash_graphic .phone {
         max-width: 80%;
-        bottom: -290px;
-        left: -80px;
+        bottom: -25%;
+        right: 12%;
     }
 }
 
@@ -27,12 +27,12 @@
         line-height: 45px;
     }
     .hero_splash_graphic .laptop {
-        right: -115px;
-        bottom: -165px;
+        right: -11%;
+        bottom: 20%;
     }
     .hero_splash_graphic .phone {
-        bottom: -250px;
-        left: -108px;
+        bottom: -25%;
+        right: 5%;
     }
     .services_logo {
         padding-right: 0;
@@ -163,8 +163,6 @@
     }
     .hero_splash_graphic .phone {
         max-width: 80%;
-        bottom: -222px;
-        left: -32px;
     }
 }
 
@@ -176,12 +174,12 @@
         display: none;
     }
     .hero_splash_graphic .phone {
-        bottom: -140px;
-        left: -77px;
+        bottom: -35%;
+        left: -30%;
     }
     .hero_splash_graphic .laptop {
-        right: -42px;
-        bottom: -92px;
+        right: 70%;
+        bottom: 5%;
     }
     .prev_client_logo_area .section_title {
         margin-bottom: 0px;
