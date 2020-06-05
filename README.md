@@ -27,6 +27,8 @@ Progressive Web Application (PWA) developed in TypeScript and React through Gats
 - [ ] Fix favicon sizes
 - [ ] Convert JavaScript to TypeScript
 - [ ] Convert CSS to SCSS
+- [ ] Make more Jest unit tests
+- [ ] Incorporate Enzyme integration tests
 - [ ] Optimize and lazy load images (gatsby-image, gatsby-background-image)
 - [ ] Optimize images (resize)
 - [ ] Delete unused dependencies (depcheck/npm-check-unused)
