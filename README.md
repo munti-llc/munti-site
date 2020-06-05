@@ -13,7 +13,7 @@ Progressive Web Application (PWA) developed in TypeScript and React through Gats
 - [x] Fix CSS navbar link hover
 - [x] Fix CSS hamburger for mobile screen
 - [x] Delete unnecessary CSS hover cursor:pointer
-- [ ] Fix responsive absolute positioning of hero banner graphics
+- [x] Fix responsive absolute positioning of hero banner graphics
 - [ ] Add preloader functionality
 - [ ] Fix scroll-to-top functionality (gatsby-plugin-smoothscroll)
 - [ ] Fix favicon path (gatsby-plugin-favicon)
