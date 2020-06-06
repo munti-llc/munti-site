@@ -28,6 +28,14 @@ const Team = () => {
 							memberL="zachSocials"
 						/>
 					</div>
+					<div className="col-lg-3 col-sm-6">
+						<Member
+							teamImage="alenaHuang.jpg"
+							memberN="Alena Huang"
+							memberd="UI/UX & Graphic Designer"
+							memberL="alenaSocials"
+						/>
+					</div>
 				</div>
 			</div>
 		</section>

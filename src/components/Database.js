@@ -33,6 +33,18 @@ const Database = {
 			icon: "ti-world",
 		},
 	],
+	alenaSocials: [
+		{
+			id: 1,
+			url: "https://www.linkedin.com/in/alena-huang/",
+			icon: "ti-linkedin",
+		},
+		{
+			id: 2,
+			url: "https://alenahuang.com",
+			icon: "ti-world",
+		},
+	],
 	socialIcon: [
 		{
 			id: 1,
