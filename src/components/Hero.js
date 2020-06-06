@@ -16,7 +16,7 @@ const Hero = () => {
 								<p>
 									We are a student-run freelance company
 									specializing in pairing the right talent for
-									the right job. Want something made? We would
+									the right job. Want something made? We'd
 									love to hear all about it!
 								</p>
 								<a href="#works" className="main_btn theme_btn">
