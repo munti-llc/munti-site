@@ -174,6 +174,24 @@ class Works extends Component {
 							tOne="DeLive Aerial System, LLC"
 							tTwo="https://delivedrones.com"
 						/>
+						<Work
+							colClass="col-lg-4 col-sm-6 design graphic"
+							pImg="aristotleOne.jpg"
+							ptitle="Aristotle's Card Designs #1"
+							tOne="Aristotle's Elements & Space"
+						/>
+						<Work
+							colClass="col-lg-4 col-sm-6 design graphic"
+							pImg="aristotleTwo.jpg"
+							ptitle="Aristotle's Card Designs #2"
+							tOne="Aristotle's Elements & Space"
+						/>
+						<Work
+							colClass="col-lg-4 col-sm-6 design graphic"
+							pImg="aristotleThree.jpg"
+							ptitle="Aristotle's Card Designs #3"
+							tOne="Aristotle's Elements & Space"
+						/>
 					</div>
 				</div>
 			</section>
