@@ -6,6 +6,10 @@ import {
 	withRouter,
 } from "react-router-dom";
 
+import ReactGA from "react-ga";
+ReactGA.initialize("UA-150731209-5");
+ReactGA.pageview("/");
+
 const Landing = React.lazy(() => import("./pages/Home"));
 const NoMatch = React.lazy(() => import("./pages/404"));
 
