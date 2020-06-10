@@ -14,6 +14,8 @@ Progressive Web Application (PWA) developed in TypeScript and React through Gats
 - [x] Fix CSS hamburger for mobile screen
 - [x] Delete unnecessary CSS hover cursor:pointer
 - [x] Fix responsive absolute positioning of hero banner graphics
+- [x] Fix site metadata
+- [x] Fix metadata image
 - [ ] Add member tag for works section
 - [ ] Add preloader functionality
 - [ ] Fix scroll-to-top functionality (gatsby-plugin-smoothscroll)
@@ -21,10 +23,8 @@ Progressive Web Application (PWA) developed in TypeScript and React through Gats
 - [ ] Futher improve site through plugins (gatsby-plugin-remove-trailing-slashes)
 - [ ] Optimize to be PWA (gatsby-plugin-manifest, gatsby-plugin-offline, `<noscript>`)
 - [ ] Add site metadata (react-helmet, gatsby-plugin-react-helmet)
-- [ ] Fix site metadata
 - [ ] Integrate Google Analytics API (gatsby-plugin-google-analytics)
 - [ ] Optimize site performance through PWA lighthouse audit
-- [ ] Fix metadata image
 - [ ] Fix favicon sizes
 - [ ] Convert JavaScript to TypeScript
 - [ ] Convert CSS to SCSS
