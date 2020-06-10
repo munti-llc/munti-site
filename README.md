@@ -18,8 +18,8 @@ Progressive Web Application (PWA) developed in TypeScript and React (CRA) using 
 - [x] Fix metadata image
 - [x] Add preloader functionality
 - [x] Add scroll-to-top functionality
+- [x] Integrate Google Analytics API
 - [ ] Add member tag for works section
-- [ ] Integrate Google Analytics API
 - [ ] Optimize site performance through PWA lighthouse audit
 - [ ] Fix favicon sizes
 - [ ] Convert JavaScript to TypeScript
