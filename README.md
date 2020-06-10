@@ -1,6 +1,6 @@
 # Munti LLC Company Website :desktop_computer:
 
-Progressive Web Application (PWA) developed in TypeScript and React (CRA) using Jest (Testing), Sass/SCSS and Bootstrap (General Style), Basin (Contact Form), and Google Analytics (Analytics). PWA is hosted on Netlify.
+Progressive Web Application (PWA) developed in React (CRA) using Jest (Testing), Sass/SCSS and Bootstrap (General Style), Basin (Contact Form), and Google Analytics (Analytics). PWA is hosted on Netlify.
 
 ![web-screenshot](https://user-images.githubusercontent.com/50670255/84215968-0f7eb580-aa96-11ea-91fd-0fda9b14acb5.png)
 
@@ -19,11 +19,10 @@ Progressive Web Application (PWA) developed in TypeScript and React (CRA) using 
 - [x] Add preloader functionality
 - [x] Add scroll-to-top functionality
 - [x] Integrate Google Analytics API
+- [x] Convert CSS to SCSS
 - [ ] Add member tag for works section
 - [ ] Optimize site performance through PWA lighthouse audit
 - [ ] Fix favicon sizes
-- [ ] Convert JavaScript to TypeScript
-- [ ] Convert CSS to SCSS
 - [ ] Make more Jest unit tests
 - [ ] Incorporate Enzyme integration tests
 - [ ] Optimize images (resize)
