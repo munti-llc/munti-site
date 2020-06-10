@@ -18,7 +18,11 @@ const Services = () => {
 									best fits your current needs, let's talk
 									about it and figure it out!
 								</p>
-								<a href="#stack" className="main_btn theme_btn">
+								<a
+									href="#stack"
+									id="tech_use"
+									className="main_btn theme_btn"
+								>
 									Technologies We Use
 								</a>
 							</div>

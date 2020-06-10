@@ -19,7 +19,11 @@ const Hero = () => {
 									the right job. Want something made? We'd
 									love to hear all about it!
 								</p>
-								<a href="#works" className="main_btn theme_btn">
+								<a
+									href="#works"
+									id="banner_btn"
+									className="main_btn theme_btn"
+								>
 									Our Projects
 								</a>
 								<a
