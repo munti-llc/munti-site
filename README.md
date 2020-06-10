@@ -16,9 +16,9 @@ Progressive Web Application (PWA) developed in TypeScript and React (CRA) using 
 - [x] Fix responsive absolute positioning of hero banner graphics
 - [x] Fix site metadata
 - [x] Fix metadata image
+- [x] Add preloader functionality
+- [x] Add scroll-to-top functionality
 - [ ] Add member tag for works section
-- [ ] Add preloader functionality
-- [ ] Add scroll-to-top functionality
 - [ ] Integrate Google Analytics API
 - [ ] Optimize site performance through PWA lighthouse audit
 - [ ] Fix favicon sizes
