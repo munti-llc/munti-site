@@ -18,7 +18,7 @@ class App extends Component {
 					<React.Suspense fallback={<div></div>}>
 						<Switch>
 							<Layout>
-								<Route path="/" component={Landing} />
+								<Route exact path="/" component={Landing} />
 							</Layout>
 							<Layout>
 								<Route component={NoMatch} />
