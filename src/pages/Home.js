@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Hero from "../components/Hero";
 import Team from "../components/Team";
-import Layout from "../components/Layout/";
 import Process from "../components/Process";
 import Stack from "../components/Stack";
 import Contact from "../components/Contact";
@@ -22,16 +21,14 @@ class HomePage extends Component {
 	render() {
 		return (
 			<div className="body_wrapper">
-				<Layout>
-					<Hero id="home" />
-					<Process />
-					<Services />
-					<Stack />
-					<Works />
-					<Team />
-					<Clients />
-					<Contact />
-				</Layout>
+				<Hero id="home" />
+				<Process />
+				<Services />
+				<Stack />
+				<Works />
+				<Team />
+				<Clients />
+				<Contact />
 			</div>
 		);
 	}

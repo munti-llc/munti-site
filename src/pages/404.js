@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Layout from "../components/Layout/";
 
 class ErrorPage extends Component {
 	componentDidMount() {
@@ -14,26 +13,24 @@ class ErrorPage extends Component {
 	render() {
 		return (
 			<div className="body_wrapper">
-				<Layout>
-					<section className="error_main_area">
-						<div className="container flex">
-							<div className="error_main_content text-center">
-								<img
-									src={require("../img/home/error.png")}
-									alt=""
-								/>
-								<h2>
-									Oops, we cannot seem to find what you're
-									looking for.
-								</h2>
-								<p>Kindly try again later or return home.</p>
-								<a href="/" className="theme_btn main_btn">
-									Back Home
-								</a>
-							</div>
+				<section className="error_main_area">
+					<div className="container flex">
+						<div className="error_main_content text-center">
+							<img
+								src={require("../img/home/error.png")}
+								alt=""
+							/>
+							<h2>
+								Oops, we cannot seem to find what you're looking
+								for.
+							</h2>
+							<p>Kindly try again later or return home.</p>
+							<a href="/" className="theme_btn main_btn">
+								Back Home
+							</a>
 						</div>
-					</section>
-				</Layout>
+					</div>
+				</section>
 			</div>
 		);
 	}

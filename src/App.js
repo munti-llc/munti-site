@@ -22,7 +22,8 @@ class App extends Component {
 								<Route path="/" component={Landing} />
 							</Layout>
 							<Layout>
-								<Route component={NoMatch} />
+								<Route path="/404" component={NoMatch} />
+								<Redirect from="*" to="/404" />
 							</Layout>
 						</Switch>
 					</React.Suspense>
