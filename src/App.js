@@ -4,7 +4,6 @@ import {
 	Switch,
 	BrowserRouter as Router,
 	withRouter,
-	Redirect,
 } from "react-router-dom";
 
 import Layout from "./components/Layout/";
@@ -22,8 +21,7 @@ class App extends Component {
 								<Route path="/" component={Landing} />
 							</Layout>
 							<Layout>
-								<Route path="/404" component={NoMatch} />
-								<Redirect from="*" to="/404" />
+								<Route component={NoMatch} />
 							</Layout>
 						</Switch>
 					</React.Suspense>
