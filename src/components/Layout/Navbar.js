@@ -13,9 +13,12 @@ class Navbar extends Component {
 					>
 						<div className={`container ${cClass}`}>
 							<a className={`navbar_theme ${slogo}`} href="/">
-								<img src={require("../img/logo.png")} alt="" />
 								<img
-									src={require("../img/logo.png")}
+									src={require("../../img/logo.png")}
+									alt=""
+								/>
+								<img
+									src={require("../../img/logo.png")}
 									alt="logo"
 								/>
 							</a>

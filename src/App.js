@@ -1,24 +1,35 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch } from "react-router-dom";
-import { HomePage } from "./pages/Home";
-import ScrollToTopRoute from "./ScrollToTopRoute";
-import ErrorPage from "./pages/404";
+import {
+	Route,
+	Switch,
+	BrowserRouter as Router,
+	withRouter,
+	Redirect,
+} from "react-router-dom";
+
+import Layout from "./components/Layout/";
+const Landing = React.lazy(() => import("./pages/Home"));
+const NoMatch = React.lazy(() => import("./pages/404"));
 
 class App extends Component {
 	render() {
 		return (
-			<Router>
-				<Switch>
-					<ScrollToTopRoute
-						exact={true}
-						path={"/"}
-						component={HomePage}
-					/>
-					<ScrollToTopRoute component={ErrorPage} />
-				</Switch>
-			</Router>
+			<React.Fragment>
+				<Router>
+					<React.Suspense fallback={<div></div>}>
+						<Switch>
+							<Layout>
+								<Route path="/" component={Landing} />
+							</Layout>
+							<Layout>
+								<Route component={NoMatch} />
+							</Layout>
+						</Switch>
+					</React.Suspense>
+				</Router>
+			</React.Fragment>
 		);
 	}
 }
 
-export default App;
+export default withRouter(App);
