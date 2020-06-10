@@ -7,6 +7,7 @@ import Contact from "../components/Contact";
 import Works from "../components/Works";
 import Clients from "../components/Clients";
 import Services from "../components/Services";
+import Layout from "../components/Layout";
 
 class HomePage extends Component {
 	componentDidMount() {
@@ -20,16 +21,18 @@ class HomePage extends Component {
 
 	render() {
 		return (
-			<div className="body_wrapper">
-				<Hero id="home" />
-				<Process />
-				<Services />
-				<Stack />
-				<Works />
-				<Team />
-				<Clients />
-				<Contact />
-			</div>
+			<Layout>
+				<div className="body_wrapper">
+					<Hero id="home" />
+					<Process />
+					<Services />
+					<Stack />
+					<Works />
+					<Team />
+					<Clients />
+					<Contact />
+				</div>
+			</Layout>
 		);
 	}
 }

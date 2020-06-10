@@ -6,7 +6,6 @@ import {
 	withRouter,
 } from "react-router-dom";
 
-import Layout from "./components/Layout/";
 const Landing = React.lazy(() => import("./pages/Home"));
 const NoMatch = React.lazy(() => import("./pages/404"));
 
@@ -17,12 +16,8 @@ class App extends Component {
 				<Router>
 					<React.Suspense fallback={<div></div>}>
 						<Switch>
-							<Layout>
-								<Route exact path="/" component={Landing} />
-							</Layout>
-							<Layout>
-								<Route component={NoMatch} />
-							</Layout>
+							<Route exact path="/" component={Landing} />
+							<Route component={NoMatch} />
 						</Switch>
 					</React.Suspense>
 				</Router>
