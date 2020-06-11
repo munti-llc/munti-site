@@ -58,6 +58,7 @@
   .navbar_fixed .header_area .menu_main {
     padding: 15px 0px;
   }
+  .navbar-collapse,
   .footer_bottom,
   .f_social_icon_main a {
     font-size: 13px;
@@ -127,19 +128,19 @@
     padding: 15px 0px;
   }
   .w_menu .nav_item .nav_item {
-    color: #051441;
+    color: #f96e65;
   }
   .w_menu .nav_item:hover .nav_item,
   .w_menu .nav_item.active .nav_item {
-    color: #00aff0;
+    color: #f96e65;
   }
   .menu_theme > .menu > .nav_item:hover .nav_item,
   .menu_theme .menu > .nav_item.active .nav_item {
-    color: #6754e2;
+    color: #f96e65;
   }
   .menu_theme > .menu > .nav_item:hover > .nav_item:before,
   .menu_theme .menu > .nav_item.active > .nav_item:before {
-    background: #6754e2;
+    background: #f96e65;
   }
   .services_content {
     padding-top: 50px;
