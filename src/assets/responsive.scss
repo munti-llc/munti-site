@@ -226,9 +226,6 @@
 	.prev_client_logo_area .section_title h2 {
 		font-size: 28px;
 	}
-	#banner_btn {
-		margin-left: 20px;
-	}
 }
 
 @media (max-height: 420px) {
@@ -278,5 +275,8 @@
 	}
 	.prev_client_logo_area {
 		padding-top: 0;
+	}
+	#banner_btn {
+		margin-right: 20px;
 	}
 }
