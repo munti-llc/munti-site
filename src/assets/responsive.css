@@ -80,17 +80,17 @@
     right: 30px;
     top: 30px;
   }
-  .menu > .nav_item + .nav_item {
-    margin-left: 0px;
+  .menu {
+    padding: 10px 30px;
+    background: #fff;
+    margin-top: 0px;
   }
   .menu > .nav_item {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  .menu {
-    padding: 10px 30px;
-    background: #fff;
-    margin-top: 0px;
+  .menu > .nav_item + .nav_item {
+    margin-left: 0px;
   }
   .menu_main .navbar-collapse {
     margin-left: -20px;
@@ -134,12 +134,16 @@
   .w_menu .nav_item.active .nav_item {
     color: #f96e65;
   }
-  .menu_theme > .menu > .nav_item:hover .nav_item,
+  .menu_theme > .menu > .nav_item:hover .nav_item {
+    color: #f96e65;
+  }
   .menu_theme .menu > .nav_item.active .nav_item {
     color: #f96e65;
   }
-  .menu_theme > .menu > .nav_item:hover > .nav_item:before,
   .menu_theme .menu > .nav_item.active > .nav_item:before {
+    background: #f96e65;
+  }
+  .menu_theme > .menu > .nav_item:hover > .nav_item:before {
     background: #f96e65;
   }
   .services_content {

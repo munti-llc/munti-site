@@ -4,8 +4,7 @@ a {
   text-decoration: none !important;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
   text-decoration: none;
 }
 
@@ -25,7 +24,7 @@ body {
   font-size: 15px;
   font-weight: 300;
   line-height: 28px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", "Open Sans", sans-serif;
   letter-spacing: 0px;
   color: #677294;
   padding: 0px;
@@ -45,23 +44,25 @@ button {
   outline: none;
 }
 
-a:hover,
-a:focus,
-.btn:hover,
-.btn:focus,
-button:hover,
-button:focus {
+a:hover, a:focus {
   text-decoration: none;
   color: #f96e65 !important;
   outline: none;
 }
 
-.btn:focus,
-.btn:active:focus,
-.btn.active:focus,
-.btn.focus,
-.btn:active.focus,
-.btn.active.focus {
+.btn:hover, .btn:focus {
+  text-decoration: none;
+  color: #f96e65 !important;
+  outline: none;
+}
+
+button:hover, button:focus {
+  text-decoration: none;
+  color: #f96e65 !important;
+  outline: none;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -83,9 +84,6 @@ button:focus {
   max-width: 650px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.section_title p {
   white-space: pre-line;
 }
 
@@ -158,7 +156,7 @@ button:focus {
 }
 
 .f_paragraph {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", "Open Sans", sans-serif;
 }
 
 .f_300 {
@@ -282,7 +280,7 @@ button:focus {
   display: inline-block;
   font-weight: 500;
   font-size: 14px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", "Open Sans", sans-serif;
   z-index: 1;
   cursor: pointer;
   -webkit-transition: all 0.3s linear;
@@ -294,7 +292,7 @@ button:focus {
 }
 
 .theme_btn {
-  font: 500 17px/20px "Ubuntu", sans-serif;
+  font: 500 17px/20px "Ubuntu", "Open Sans", sans-serif;
   border-radius: 5px;
   padding: 15px 35px;
   background: #fff;
@@ -369,7 +367,7 @@ button:focus {
 }
 
 .menu > .nav_item > .nav_item {
-  font: 500 18px "Ubuntu", sans-serif;
+  font: 500 18px "Ubuntu", "Open Sans", sans-serif;
   color: #383838;
   padding: 0px;
   position: relative;
@@ -394,12 +392,7 @@ button:focus {
   margin-left: 45px;
 }
 
-.menu > .nav_item .nav_item.active:before {
-  width: 100%;
-  left: 0;
-  right: auto;
-}
-
+.menu > .nav_item .nav_item.active:before,
 .menu > .nav_item:hover .nav_item:before {
   width: 100%;
   left: 0;
@@ -633,7 +626,7 @@ button:focus {
 }
 
 .team_item h5 {
-  font: 300 14px/24px "Ubuntu", sans-serif;
+  font: 300 14px/24px "Ubuntu", "Open Sans", sans-serif;
   color: #677294;
   margin-bottom: 0px;
 }
@@ -1056,7 +1049,7 @@ button:focus {
 }
 
 .work_filter .gallery_work_item {
-  font: 400 16px/22px "Ubuntu", sans-serif;
+  font: 400 16px/22px "Ubuntu", "Open Sans", sans-serif;
   color: #677294;
   display: inline-block;
   border-radius: 3px;
@@ -1079,13 +1072,11 @@ button:focus {
   transition: width 0.3s linear;
 }
 
-.work_filter .gallery_work_item.active,
-.work_filter .gallery_work_item:hover {
+.work_filter .gallery_work_item.active, .work_filter .gallery_work_item:hover {
   color: #f96e65;
 }
 
-.work_filter .gallery_work_item.active:before,
-.work_filter .gallery_work_item:hover:before {
+.work_filter .gallery_work_item.active:before, .work_filter .gallery_work_item:hover:before {
   width: 100%;
   background: #f96e65;
   right: auto;
@@ -1173,13 +1164,7 @@ button:focus {
   transition: all 0.3s linear;
 }
 
-.work_gallery
-.work_item
-.work_img
-.hover_content
-.work_item_desc
-.links
-a:before {
+.work_gallery .work_item .work_img .hover_content .work_item_desc .links a:before {
   background: #fff;
 }
 
@@ -1188,22 +1173,12 @@ a:before {
   top: 30px;
 }
 
-.work_gallery
-.work_item
-.work_img
-.hover_content.h_content_work
-.work_item_desc {
+.work_gallery .work_item .work_img .hover_content.h_content_work .work_item_desc {
   padding-left: 30px;
   padding-bottom: 30px;
 }
 
-.work_gallery
-.work_item
-.work_img
-.hover_content.h_content_work
-.work_item_desc
-.links
-a {
+.work_gallery .work_item .work_img .hover_content.h_content_work .work_item_desc .links a {
   font-size: 14px;
 }
 
@@ -1308,10 +1283,8 @@ a {
 }
 
 .text_box input[type="text"],
-.text_box textarea,
-.text_box input[type="password"],
-.text_box input[type="email"] {
-  font: 400 15px/60px "Ubuntu", sans-serif;
+.text_box textarea {
+  font: 400 15px/60px "Ubuntu", "Open Sans", sans-serif;
   color: #222d39;
   height: 60px;
   border-radius: 4px;
@@ -1323,38 +1296,70 @@ a {
   padding-left: 30px;
 }
 
-.text_box input[type="text"].placeholder,
-.text_box textarea.placeholder,
-.text_box input[type="password"].placeholder,
-.text_box input[type="email"].placeholder {
+.text_box input[type="password"], .text_box input[type="email"] {
+  font: 400 15px/60px "Ubuntu", "Open Sans", sans-serif;
+  color: #222d39;
+  height: 60px;
+  border-radius: 4px;
+  background-color: white;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(12, 0, 46, 0.04);
+  box-shadow: 0px 2px 4px 0px rgba(12, 0, 46, 0.04);
+  width: 100%;
+  border: 1px solid #fff;
+  padding-left: 30px;
+}
+
+.text_box input[type="text"].placeholder {
   color: #9ca3b9;
 }
 
-.text_box input[type="text"]:-moz-placeholder,
-.text_box textarea:-moz-placeholder,
-.text_box input[type="password"]:-moz-placeholder,
-.text_box input[type="email"]:-moz-placeholder {
+.text_box textarea.placeholder {
   color: #9ca3b9;
 }
 
-.text_box input[type="text"]::-moz-placeholder,
-.text_box textarea::-moz-placeholder,
-.text_box input[type="password"]::-moz-placeholder,
-.text_box input[type="email"]::-moz-placeholder {
+.text_box input[type="password"].placeholder, .text_box input[type="email"].placeholder, .text_box input[type="text"]:-moz-placeholder {
   color: #9ca3b9;
 }
 
-.text_box input[type="text"]::-webkit-input-placeholder,
-.text_box textarea::-webkit-input-placeholder,
-.text_box input[type="password"]::-webkit-input-placeholder,
-.text_box input[type="email"]::-webkit-input-placeholder {
+.text_box textarea:-moz-placeholder {
   color: #9ca3b9;
 }
 
-.text_box input[type="text"]:focus,
-.text_box textarea:focus,
-.text_box input[type="password"]:focus,
-.text_box input[type="email"]:focus {
+.text_box input[type="password"]:-moz-placeholder, .text_box input[type="email"]:-moz-placeholder, .text_box input[type="text"]::-moz-placeholder {
+  color: #9ca3b9;
+}
+
+.text_box textarea::-moz-placeholder {
+  color: #9ca3b9;
+}
+
+.text_box input[type="password"]::-moz-placeholder, .text_box input[type="email"]::-moz-placeholder, .text_box input[type="text"]::-webkit-input-placeholder {
+  color: #9ca3b9;
+}
+
+.text_box textarea::-webkit-input-placeholder {
+  color: #9ca3b9;
+}
+
+.text_box input[type="password"]::-webkit-input-placeholder, .text_box input[type="email"]::-webkit-input-placeholder {
+  color: #9ca3b9;
+}
+
+.text_box input[type="text"]:focus {
+  border-color: #f2effc;
+  -webkit-box-shadow: 0px 10px 14px 0px rgba(12, 0, 46, 0.06);
+  box-shadow: 0px 10px 14px 0px rgba(12, 0, 46, 0.06);
+  outline: none;
+}
+
+.text_box textarea:focus {
+  border-color: #f2effc;
+  -webkit-box-shadow: 0px 10px 14px 0px rgba(12, 0, 46, 0.06);
+  box-shadow: 0px 10px 14px 0px rgba(12, 0, 46, 0.06);
+  outline: none;
+}
+
+.text_box input[type="password"]:focus, .text_box input[type="email"]:focus {
   border-color: #f2effc;
   -webkit-box-shadow: 0px 10px 14px 0px rgba(12, 0, 46, 0.06);
   box-shadow: 0px 10px 14px 0px rgba(12, 0, 46, 0.06);
@@ -1568,10 +1573,7 @@ a {
   margin-left: 10px;
 }
 
-.footer_area_main .footer_bottom p a {
-  color: #f96e65;
-}
-
+.footer_area_main .footer_bottom p a,
 .footer_area_main .footer_bottom a:hover {
   color: #f96e65;
 }
@@ -1582,7 +1584,7 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(45deg, #ffffff, #ffffff);
+  background-image: linear-gradient(45deg, #fff, #fff);
   z-index: 9999999;
 }
 
@@ -1602,8 +1604,7 @@ a {
   margin: 100px auto;
 }
 
-#preloader #status .spinner .double-bounce1,
-#preloader #status .spinner .double-bounce2 {
+#preloader #status .spinner .double-bounce1 {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -1617,6 +1618,16 @@ a {
 }
 
 #preloader #status .spinner .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #f96e65;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-bounce 2s infinite ease-in-out;
+  animation: sk-bounce 2s infinite ease-in-out;
   -webkit-animation-delay: -1s;
   animation-delay: -1s;
 }
