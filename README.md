@@ -20,12 +20,12 @@ Progressive Web Application (PWA) developed in React (CRA) using Jest (Testing),
 - [x] Add scroll-to-top functionality
 - [x] Integrate Google Analytics API
 - [x] Convert CSS to SCSS
+- [x] Optimize images through Netlify plugin
 - [ ] Add member tag for works section
 - [ ] Optimize site performance through PWA lighthouse audit
 - [ ] Fix favicon sizes
 - [ ] Make more Jest unit tests
 - [ ] Incorporate Enzyme integration tests
-- [ ] Optimize images (resize)
 - [ ] Delete unused dependencies (depcheck/npm-check-unused)
 
 ---
