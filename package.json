@@ -1,5 +1,6 @@
 {
-	"name": "munti",
+	"name": "munti-site",
+	"description": "Munti is a student-run freelance company centered at the University of Notre Dame specializing in producing MVPs for startups.",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
