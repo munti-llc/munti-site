@@ -162,6 +162,13 @@ class Works extends Component {
 						/>
 						<Work
 							colClass="col-lg-4 col-sm-6 mobile develop design ux"
+							pImg="gittaApp.jpg"
+							ptitle="Gitta App"
+							tOne="Gitta LLC"
+							tTwo="https://gittasitta.com"
+						/>
+						<Work
+							colClass="col-lg-4 col-sm-6 mobile develop design ux"
 							pImg="temboApp.jpg"
 							ptitle="Tembo App"
 							tOne="Tembo AI, LLC"
