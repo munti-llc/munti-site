@@ -18,7 +18,11 @@ class Clients extends Component {
 						<div className="client_logo_area_spec">
 							<div className="row client_info">
 								<div className="logo_item">
-									<a href=".#">
+									<a
+										href="https://ideacenter.nd.edu/"
+										target="_BLANK"
+										rel="noopener noreferrer"
+									>
 										<img
 											src={require("../img/clients/ideaCenter.png")}
 											alt=""
@@ -26,7 +30,11 @@ class Clients extends Component {
 									</a>
 								</div>
 								<div className="logo_item">
-									<a href=".#">
+									<a
+										href="https://esteem.nd.edu/"
+										target="_BLANK"
+										rel="noopener noreferrer"
+									>
 										<img
 											src={require("../img/clients/ndEsteem.png")}
 											alt=""
@@ -34,15 +42,35 @@ class Clients extends Component {
 									</a>
 								</div>
 								<div className="logo_item">
-									<a href=".#">
+									<a
+										href="https://gittasitta.com"
+										target="_BLANK"
+										rel="noopener noreferrer"
+									>
 										<img
-											src={require("../img/clients/temboAI.png")}
+											src={require("../img/clients/gittaSitta.png")}
 											alt=""
 										/>
 									</a>
 								</div>
 								<div className="logo_item">
-									<a href=".#">
+									<a
+										href="https://delivedrones.com"
+										target="_BLANK"
+										rel="noopener noreferrer"
+									>
+										<img
+											src={require("../img/clients/deliveDrones.png")}
+											alt=""
+										/>
+									</a>
+								</div>
+								<div className="logo_item">
+									<a
+										href="https://gashawkrv.com"
+										target="_BLANK"
+										rel="noopener noreferrer"
+									>
 										<img
 											src={require("../img/clients/gashawkRV.png")}
 											alt=""
@@ -50,9 +78,13 @@ class Clients extends Component {
 									</a>
 								</div>
 								<div className="logo_item">
-									<a href=".#">
+									<a
+										href="https://tembo.ai"
+										target="_BLANK"
+										rel="noopener noreferrer"
+									>
 										<img
-											src={require("../img/clients/deliveDrones.png")}
+											src={require("../img/clients/temboAI.png")}
 											alt=""
 										/>
 									</a>
