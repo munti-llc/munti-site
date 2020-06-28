@@ -175,7 +175,7 @@ class Works extends Component {
 							tTwo="https://tembo.ai"
 						/>
 						<Work
-							colClass="col-lg-4 col-sm-6 web systems develop"
+							colClass="col-lg-4 col-sm-6 systems develop"
 							pImg="deliveDrone.jpg"
 							ptitle="DeLive Drone"
 							tOne="DeLive Aerial System, LLC"
