@@ -33,6 +33,7 @@ class App extends Component {
 					<meta property="og:site_name" content="Munti" />
 					<meta property="og:title" content="Munti" />
 					<meta
+						name="image"
 						property="og:image"
 						content="https://user-images.githubusercontent.com/50670255/85933118-5e538a00-b8a1-11ea-980e-cfbcd586ff65.png"
 					/>
