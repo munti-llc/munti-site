@@ -161,6 +161,20 @@ class Works extends Component {
 							tTwo="https://tembo.ai"
 						/>
 						<Work
+							colClass="col-lg-4 col-sm-6 web develop design ux"
+							pImg="gittaSite.jpg"
+							ptitle="Gitta Website"
+							tOne="Gitta LLC"
+							tTwo="https://gittasitta.com"
+						/>
+						<Work
+							colClass="col-lg-4 col-sm-6 web develop design ux graphic"
+							pImg="debtlySite.jpg"
+							ptitle="Debtly Website"
+							tOne="Debtly Inc."
+							tTwo="https://www.debtly.app/"
+						/>
+						<Work
 							colClass="col-lg-4 col-sm-6 mobile develop design ux"
 							pImg="gittaApp.jpg"
 							ptitle="Gitta App"
