@@ -172,7 +172,7 @@ class Works extends Component {
 							pImg="debtlySite.jpg"
 							ptitle="Debtly Website"
 							tOne="Debtly Inc."
-							tTwo="https://www.debtly.app/"
+							tTwo="https://debtly.app/"
 						/>
 						<Work
 							colClass="col-lg-4 col-sm-6 mobile develop design ux"
