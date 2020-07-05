@@ -67,7 +67,7 @@ class Clients extends Component {
 								</div>
 								<div className="logo_item">
 									<a
-										href="https://www.debtly.app/"
+										href="https://debtly.app/"
 										target="_BLANK"
 										rel="noopener noreferrer"
 									>
