@@ -1477,6 +1477,10 @@ button {
 		}
 	}
 
+	input.placeholder {
+		color: $hover-grey;
+	}
+
 	textarea.placeholder {
 		color: $hover-grey;
 	}
@@ -1493,6 +1497,10 @@ button {
 		color: $hover-grey;
 	}
 
+	input:-moz-placeholder {
+		color: $hover-grey;
+	}
+
 	input {
 		&[type="password"]:-moz-placeholder,
 		&[type="email"]:-moz-placeholder,
@@ -1505,6 +1513,10 @@ button {
 		color: $hover-grey;
 	}
 
+	input::-moz-placeholder {
+		color: $hover-grey;
+	}
+
 	input {
 		&[type="password"]::-moz-placeholder,
 		&[type="email"]::-moz-placeholder,
@@ -1514,6 +1526,10 @@ button {
 	}
 
 	textarea::-webkit-input-placeholder {
+		color: $hover-grey;
+	}
+
+	input::-webkit-input-placeholder {
 		color: $hover-grey;
 	}
 

@@ -1313,6 +1313,10 @@ button:hover, button:focus {
   color: #9ca3b9;
 }
 
+.text_box input.placeholder {
+  color: #9ca3b9;
+}
+
 .text_box textarea.placeholder {
   color: #9ca3b9;
 }
@@ -1325,6 +1329,10 @@ button:hover, button:focus {
   color: #9ca3b9;
 }
 
+.text_box input:-moz-placeholder {
+  color: #9ca3b9;
+}
+
 .text_box input[type="password"]:-moz-placeholder, .text_box input[type="email"]:-moz-placeholder, .text_box input[type="text"]::-moz-placeholder {
   color: #9ca3b9;
 }
@@ -1333,11 +1341,19 @@ button:hover, button:focus {
   color: #9ca3b9;
 }
 
+.text_box input::-moz-placeholder {
+  color: #9ca3b9;
+}
+
 .text_box input[type="password"]::-moz-placeholder, .text_box input[type="email"]::-moz-placeholder, .text_box input[type="text"]::-webkit-input-placeholder {
   color: #9ca3b9;
 }
 
 .text_box textarea::-webkit-input-placeholder {
+  color: #9ca3b9;
+}
+
+.text_box input::-webkit-input-placeholder {
   color: #9ca3b9;
 }
 
