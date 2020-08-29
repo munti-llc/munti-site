@@ -43,6 +43,30 @@ class Clients extends Component {
 								</div>
 								<div className="logo_item">
 									<a
+										href="https://joincabinet.com"
+										target="_BLANK"
+										rel="noopener noreferrer"
+									>
+										<img
+											src={require("../img/clients/joinCabinet.png")}
+											alt=""
+										/>
+									</a>
+								</div>
+								<div className="logo_item">
+									<a
+										href="https://flowaste.com"
+										target="_BLANK"
+										rel="noopener noreferrer"
+									>
+										<img
+											src={require("../img/clients/floWaste.png")}
+											alt=""
+										/>
+									</a>
+								</div>
+								<div className="logo_item">
+									<a
 										href="https://gittasitta.com"
 										target="_BLANK"
 										rel="noopener noreferrer"
