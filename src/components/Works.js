@@ -167,20 +167,6 @@ class Works extends Component {
 							tOne="Gitta LLC"
 							tTwo="https://gittasitta.com"
 						/>
-						{/*<Work
-							colClass="col-lg-4 col-sm-6 web develop design ux graphic"
-							pImg="debtlySite.jpg"
-							ptitle="Debtly Website"
-							tOne="Debtly Inc."
-							tTwo="https://debtly.app/"
-						/>*/}
-						<Work
-							colClass="col-lg-4 col-sm-6 mobile develop design ux"
-							pImg="debtlyApp.jpg"
-							ptitle="Debtly App"
-							tOne="Debtly Inc."
-							tTwo="https://debtly.app/"
-						/>
 						<Work
 							colClass="col-lg-4 col-sm-6 mobile develop design ux"
 							pImg="gittaApp.jpg"
