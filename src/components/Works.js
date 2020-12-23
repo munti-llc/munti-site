@@ -140,6 +140,13 @@ class Works extends Component {
 					</div>
 					<div className="row work_gallery mb_30" id="work-portfolio">
 						<Work
+							colClass="col-lg-4 col-sm-6 web develop design ux graphic"
+							pImg="urmaongSite.jpg"
+							ptitle="URMA ONG Website"
+							tOne="Bluegreans Apparel Inc."
+							tTwo="https://urmaong.com"
+						/>
+						<Work
 							colClass="col-lg-4 col-sm-6 web develop design ux"
 							pImg="gashawkSite.jpg"
 							ptitle="Gäshawk Website"
