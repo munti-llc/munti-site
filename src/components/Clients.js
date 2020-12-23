@@ -19,7 +19,7 @@ class Clients extends Component {
 							<div className="row client_info">
 								<div className="logo_item">
 									<a
-										href="https://ideacenter.nd.edu/"
+										href="https://ideacenter.nd.edu"
 										target="_BLANK"
 										rel="noopener noreferrer"
 									>
@@ -31,12 +31,24 @@ class Clients extends Component {
 								</div>
 								<div className="logo_item">
 									<a
-										href="https://esteem.nd.edu/"
+										href="https://esteem.nd.edu"
 										target="_BLANK"
 										rel="noopener noreferrer"
 									>
 										<img
 											src={require("../img/clients/ndEsteem.png")}
+											alt=""
+										/>
+									</a>
+								</div>
+								<div className="logo_item">
+									<a
+										href="https://urmaong.com"
+										target="_BLANK"
+										rel="noopener noreferrer"
+									>
+										<img
+											src={require("../img/clients/urmaOng.png")}
 											alt=""
 										/>
 									</a>
