@@ -11,7 +11,8 @@ class Footer extends Component {
 						<div className="row">
 							<div className="col-lg-4 col-md-5 col-sm-6">
 								<p className="mb-0 f_400">
-									{Database.copywrite}
+									Copyright © {new Date().getFullYear()} Munti
+									LLC. All rights reserved.
 								</p>
 							</div>
 							<div className="col-lg-4 col-md-3 col-sm-6"></div>
