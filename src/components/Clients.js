@@ -103,18 +103,6 @@ class Clients extends Component {
 								</div>
 								<div className="logo_item">
 									<a
-										href="https://debtly.app/"
-										target="_BLANK"
-										rel="noopener noreferrer"
-									>
-										<img
-											src={require("../img/clients/debtlyApp.png")}
-											alt=""
-										/>
-									</a>
-								</div>
-								<div className="logo_item">
-									<a
 										href="https://gashawkrv.com"
 										target="_BLANK"
 										rel="noopener noreferrer"
