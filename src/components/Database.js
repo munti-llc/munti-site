@@ -57,7 +57,6 @@ const Database = {
 			icon: "ti-github",
 		},
 	],
-	copywrite: "Copyright © 2020 Munti LLC. All rights reserved.",
 };
 
 export default Database;
