@@ -2,12 +2,12 @@ const Database = {
 	jioSocials: [
 		{
 			id: 1,
-			url: "https://www.linkedin.com/in/lockjio/",
+			url: "https://www.linkedin.com/in/saejhi/",
 			icon: "ti-linkedin",
 		},
 		{
 			id: 2,
-			url: "https://github.com/lockjio",
+			url: "https://github.com/saejhi",
 			icon: "ti-github",
 		},
 		{
